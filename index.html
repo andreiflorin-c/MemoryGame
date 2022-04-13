@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memory Game</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="center">
+            <h1 style="text-align:center">Memory Game</h1>
+            <button id="play-button" onclick="clickPlay()">Play</button>
+            <br>
+            <!--Difficulty toggle-->
+            <ul class="difficulty-toggle">
+                <li>
+                    <input type="radio" id="easy" name="difficulty" value="Easy">
+                    <label for="easy">Easy</label>    
+                </li>
+                <li>
+                    <input type="radio" id="medium" name="difficulty" value="Medium" checked="checked">
+                    <label for="medium">Medium</label>
+                </li>
+                <li>
+                    <input type="radio" id="hard" name="difficulty" value="Hard">
+                    <label for="hard">Hard</label>
+                </li>
+            </ul>
+
+            <h3>Top time: </h3>
+        </div>
+    </body>
+</html>
